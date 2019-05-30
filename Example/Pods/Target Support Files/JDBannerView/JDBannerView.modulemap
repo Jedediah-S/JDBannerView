@@ -1,0 +1,6 @@
+framework module JDBannerView {
+  umbrella header "JDBannerView-umbrella.h"
+
+  export *
+  module * { export * }
+}

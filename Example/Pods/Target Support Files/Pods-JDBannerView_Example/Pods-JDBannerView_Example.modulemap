@@ -1,0 +1,6 @@
+framework module Pods_JDBannerView_Example {
+  umbrella header "Pods-JDBannerView_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

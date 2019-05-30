@@ -1,0 +1,25 @@
+PODS:
+  - JDBannerView (0.1.0):
+    - SDWebImage (~> 5.0.4)
+  - SDWebImage (5.0.4):
+    - SDWebImage/Core (= 5.0.4)
+  - SDWebImage/Core (5.0.4)
+
+DEPENDENCIES:
+  - JDBannerView (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - SDWebImage
+
+EXTERNAL SOURCES:
+  JDBannerView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JDBannerView: 6bf799c1e50ee984ff1d0f969e59ecba920dcab4
+  SDWebImage: c739016e4bdf0a4a1f9a04b5e0385395ad63a282
+
+PODFILE CHECKSUM: 7d173d3843d2189968bcd740db5b3b73bf6d2f54
+
+COCOAPODS: 1.5.3

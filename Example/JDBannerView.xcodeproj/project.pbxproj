@@ -38,7 +38,7 @@
 
 /* Begin PBXFileReference section */
 		06EDB4378D4E470F4DAE543D /* Pods-JDBannerView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JDBannerView_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JDBannerView_Tests/Pods-JDBannerView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		3B92EE69A42AB59606F4D0A9 /* JDBannerView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = JDBannerView.podspec; path = ../JDBannerView.podspec; sourceTree = "<group>"; };
+		3B92EE69A42AB59606F4D0A9 /* JDBannerView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = JDBannerView.podspec; path = ../JDBannerView.podspec; sourceTree = "<group>"; };
 		3BEB0CCCD95B813684F092A0 /* Pods-JDBannerView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JDBannerView_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-JDBannerView_Example/Pods-JDBannerView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		5C01125D58A4D0745AAFE847 /* Pods_JDBannerView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JDBannerView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* JDBannerView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JDBannerView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -65,8 +65,8 @@
 		76C15DFE25B3179A3AD965C0 /* Pods-JDBannerView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JDBannerView_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JDBannerView_Example/Pods-JDBannerView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		95F3D0D6804DEEA3C777520A /* Pods-JDBannerView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JDBannerView_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JDBannerView_Tests/Pods-JDBannerView_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		C1D05CDC21AD8E62DB967B23 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		D087B874C8C25EA273A282F2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		C1D05CDC21AD8E62DB967B23 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		D087B874C8C25EA273A282F2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -207,7 +207,7 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				FE8B7EFF820BD6EDBE24437D /* [CP] Embed Pods Frameworks */,
+				0623FB5EF14F482E6AF68314 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -247,6 +247,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "13432414304@163.com";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 8382ANB84G;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -294,6 +297,26 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		0623FB5EF14F482E6AF68314 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-JDBannerView_Example/Pods-JDBannerView_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/JDBannerView/JDBannerView.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JDBannerView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JDBannerView_Example/Pods-JDBannerView_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		9C3D88964419806C5E405F3D /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -328,24 +351,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		FE8B7EFF820BD6EDBE24437D /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-JDBannerView_Example/Pods-JDBannerView_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/JDBannerView/JDBannerView.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JDBannerView.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JDBannerView_Example/Pods-JDBannerView_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -485,11 +490,12 @@
 			baseConfigurationReference = 76C15DFE25B3179A3AD965C0 /* Pods-JDBannerView_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8382ANB84G;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JDBannerView/JDBannerView-Prefix.pch";
 				INFOPLIST_FILE = "JDBannerView/JDBannerView-Info.plist";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.Jedediah.JDBannerView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -500,11 +506,12 @@
 			baseConfigurationReference = 3BEB0CCCD95B813684F092A0 /* Pods-JDBannerView_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8382ANB84G;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JDBannerView/JDBannerView-Prefix.pch";
 				INFOPLIST_FILE = "JDBannerView/JDBannerView-Info.plist";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.Jedediah.JDBannerView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
