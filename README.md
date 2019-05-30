@@ -20,9 +20,19 @@ it, simply add the following line to your Podfile:
 pod 'JDBannerView'
 ```
 
+## 使用
+```
+#import "JDBannerView.h"
+
+JDBannerView *bannerView = [JDBannerView initBannerViewWithFrame:frame];
+[bannerView setupImageUrls:@[imageUrl1,imageurl2,...].mutableCopy];
+[self.view addSubview:bannerView];
+
+```
+
 ## Author
 
-13432414304@163.com, 13432414304@163.com
+Jedediah, 13432414304@163.com
 
 ## License
 
