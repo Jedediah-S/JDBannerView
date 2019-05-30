@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'JDBannerView'
+  s.name             = 'JDBannerView_s'
   s.version          = '0.1.0'
   s.summary          = '自用轮播控件'
 
