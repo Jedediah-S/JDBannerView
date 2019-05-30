@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'JDBannerView_Example' do
+  pod 'JDBannerView', :path => '../'
+
+  target 'JDBannerView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
