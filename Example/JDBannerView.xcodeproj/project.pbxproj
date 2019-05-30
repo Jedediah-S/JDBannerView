@@ -38,7 +38,7 @@
 
 /* Begin PBXFileReference section */
 		06EDB4378D4E470F4DAE543D /* Pods-JDBannerView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JDBannerView_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JDBannerView_Tests/Pods-JDBannerView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		3B92EE69A42AB59606F4D0A9 /* JDBannerView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = JDBannerView.podspec; path = ../JDBannerView.podspec; sourceTree = "<group>"; };
+		3B92EE69A42AB59606F4D0A9 /* JDBannerView_s.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = JDBannerView_s.podspec; path = ../JDBannerView_s.podspec; sourceTree = "<group>"; };
 		3BEB0CCCD95B813684F092A0 /* Pods-JDBannerView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JDBannerView_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-JDBannerView_Example/Pods-JDBannerView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		5C01125D58A4D0745AAFE847 /* Pods_JDBannerView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JDBannerView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* JDBannerView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JDBannerView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -178,7 +178,7 @@
 		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				3B92EE69A42AB59606F4D0A9 /* JDBannerView.podspec */,
+				3B92EE69A42AB59606F4D0A9 /* JDBannerView_s.podspec */,
 				C1D05CDC21AD8E62DB967B23 /* README.md */,
 				D087B874C8C25EA273A282F2 /* LICENSE */,
 			);
